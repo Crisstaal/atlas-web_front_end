@@ -1,10 +1,5 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -45,6 +40,12 @@
     --nav-link-padding-top: calc(var(--root-font-size) / 2);
     --nav-link-padding-bottom: calc(var(--root-font-size) / 2);
     --nav-item-link-hover: var(--color-primary);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 html {
