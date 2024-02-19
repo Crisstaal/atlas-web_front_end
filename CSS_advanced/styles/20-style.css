@@ -213,3 +213,12 @@ ul.row {
     text-align: right;
 }
 
+.row {
+    clear: both; /* Clear floating elements on both sides */
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
