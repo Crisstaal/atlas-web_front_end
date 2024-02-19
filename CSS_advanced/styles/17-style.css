@@ -127,7 +127,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: var(--section-padding);
 }
 .section-body {
-    /* ... (Your existing section-body styles) ... */
     padding: var(--section-body-padding);
 }
 
