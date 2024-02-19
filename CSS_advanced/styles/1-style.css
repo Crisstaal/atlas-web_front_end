@@ -1,9 +1,17 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-}
-
-#content {
-    height: 150vh; /* Adjust height based on your content */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Page Title</title>
+</head>
+<body>
+    <div id="content">
+        <!-- Your webpage content goes here -->
+        <h1>Your Webpage Content</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
